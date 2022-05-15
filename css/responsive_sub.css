@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1200px) {
+    
+    main {
+        padding: 5% 3%;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+
+    main {
+        flex-wrap: wrap;
+        padding: 7% 5%;
+    }
+
+    .article {
+        width: 60%;
+        flex-wrap: nowrap;
+        
+        max-height: 9999px;
+    }
+
+    .article_box {
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    html {
+        font-size: 15px;
+    }
+
+    main {
+        padding: 10%;
+    }
+
+    .article {
+        width: 100%;
+        margin-bottom: 170px;
+    }
+
+    .article_box {
+        margin-bottom: 12%;
+    }
+
+    .pages {
+        width: 100%;
+    }
+
+    .pages a {
+        padding: 4px 18px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+}

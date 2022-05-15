@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Universe</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive_main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- HEADER -->
+        <header>
+            <!-- header - logo -->
+            <div class="logo">
+                <a href="index.html" target="_self"><img src="img/logo.png" alt="" class="logo01"></a>
+                <a href="index.html" target="_self"><img src="img/logo_02.png" alt="" class="logo02"></a>
+            </div>
+            <!-- header - nav menu -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" target="_self">HOME</a></li>
+                    <li><a href="sub.html" target="_self">SHOP</a></li>
+                    <li class="page">
+                        <a href="sub.html" target="_self" class="page_name">PAGE</a>
+                        <!-- pages list / JS dropdown -->
+                        <div class="page_menu">
+                            <ul>
+                                <li><a href="sub.html" target="_self">Collection</a></li>
+                                <li><a href="sub.html" target="_self">Contact Us</a></li>
+                                <li><a href="sub.html" target="_self">Shop By Brand</a></li>
+                                <li><a href="sub.html" target="_self">About Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- pages list / JS dropdown -->
+                    </li>
+                    <li><a href="sub.html" target="_self">BLOG</a></li>
+                    <li><a href="sub.html" target="_self">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <!-- header - width 768 이하 nav search bar -->
+            <div class="nav_search">
+                <input type="text">
+                <span><a href="#"><i class="fas fa-search"></i></a></span>
+            </div>
+            <!-- header - Search / Cart / Account -->
+            <div class="nav_right">
+                <ul>
+                    <li><a href="#"><span><i class="fas fa-search"></i></span>Search</a></li>
+                    <li class="nav_cart"><a href="#"><span><i class="fas fa-shopping-cart"></i></span>Cart</a></li>
+                    <li><a href="#"><span><i class="far fa-user"></i></span>Account</a></li>
+                    <!-- header - User menu -->
+                    <li class="menu_button">
+                        <span><i class="fas fa-bars"></i></span>
+                        <div class="user_menu">
+                            <ul>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">My Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- header - width 768 이하 nav 하단 고정 -->
+            <div class="nav_under">
+                <ul>
+                    <li><a href="#"><span><i class="fas fa-home"></i></span>Home</a></li>
+                    <li><a href="#"><span><i class="far fa-heart"></i></span>Wishlist</a></li>
+                    <li class="nav_under_cart"><a href="#"><span><i class="fas fa-shopping-cart"></i></span>Cart</a></li>
+                    <li><a href="#"><span><i class="far fa-user"></i></span>Account</a></li>
+                    <li class="nav_under_top"><a href="#"><span><i class="fas fa-arrow-circle-up"></i></span>On Top</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- slider -->
+        <div id="slider">
+            <ul>
+                <li class="slider_imgbox"><a href="sub.html" target="_self" class="slider_img1"></a></li>
+            </ul>
+        </div>
+        <!-- MAIN -->
+        <main>
+            <!-- TOP 4 CATEGORY -->
+            <section class="section_black categories">
+                <div class="container">
+                    <div class="consoles box_class">
+                        <a href="sub.html" target="_self">
+                            <p class="tf"><i class="fab fa-playstation"></i></p>
+                            <h3>consoles</h3>
+                        </a>
+                    </div>
+                    <div class="games box_class">
+                        <a href="sub.html" target="_self">
+                            <p class="tf"><i class="fas fa-gamepad"></i></p>
+                            <h3>games</h3>
+                        </a>
+                    </div>
+                    <div class="accessories box_class">
+                        <a href="sub.html" target="_self">
+                            <p class="tf"><i class="fas fa-headphones"></i></p>
+                            <h3>accessories</h3>
+                        </a>
+                    </div>
+                    <div class="hotdeals box_class">
+                        <a href="sub.html" target="_self">
+                            <p class="tf"><i class="fas fa-cart-arrow-down"></i></p>
+                            <h3>hot deals</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- GAME GENRE -->
+            <section class="gamegenre">
+                <div class="container">
+                    <div class="title">
+                        <h1>GAME GENRE</h1>
+                    </div>
+                    <div class="list">
+                        <ul class="genre_list">
+                            <li><a href="#">Action&Adventure</a></li>
+                            <li><a href="#">Fighting</a></li>
+                            <li><a href="#">Indie</a></li>
+                            <li><a href="#">Kid&Family</a></li>
+                            <li><a href="#">Racing&Flying</a></li>
+                            <li><a href="#">Roleplaying</a></li>
+                            <li><a href="#">Strategy</a></li>
+                        </ul>
+                        <ul class="arrow_btn">
+                            <li class="btn_left"><i class="fas fa-chevron-left"></i></li>
+                            <li class="btn_right"><i class="fas fa-chevron-right"></i></li>
+                        </ul>
+                    </div>
+                    <!-- GAME GENRE - game list -->
+                    <div class="content">
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game01.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Resident Evil - Biohazard</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$56.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game02.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Death Stranding</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$35.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game03.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Game Infomer Magazine</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$43.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game04.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Mafia Ⅲ - Season Pass</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$63.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- GAME HOT TRENDING -->
+            <section class="section_black hot_trending">
+                <div class="container">
+                    <div class="hot_txtbox">
+                        <h2>GAME HOT TRENDING</h2>
+                        <p>The game is most anticipated this year. Highly appreciated by the gaming community. Call of duty will bring new breeze to all of you. Let's explore this game with us.</p>
+                        <button class="btn_discover">DISCOVER NOW</button>
+                        <button class="btn_buy">BUY NOW - $39.99</button>
+                    </div>
+                    <div class="hot_imgbox">
+                        <img src="img/vinova.jpg" alt="trend_img">
+                    </div>
+                </div>
+            </section>
+            <!-- DEAL OF DAY -->
+            <section class="deal">
+                <div class="container">
+                    <div class="list">
+                        <div class="title">
+                            <h1>DEAL OF THE DAY</h1>
+                        </div>
+                        <ul class="arrow_btn">
+                            <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- DEAL OF DAY - game list -->
+                    <div class="content">
+                        <div class="content_box deal_box">
+                            <div class="deal_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game05.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="deal_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Cyberpunk - 2077</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                                <p>Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.</p>
+                                <div class="price_box">
+                                    <div class="price">$28.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                                <div class="deal_time">
+                                    <div class="item_time days">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Days</span>
+                                    </div>
+                                    <div class="item_time hours">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Hours</span>
+                                    </div>
+                                    <div class="item_time mins">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Mins</span>
+                                    </div>
+                                    <div class="item_time secs">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Secs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_box deal_box">
+                            <div class="deal_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game06.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="deal_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Gears of War - Version 4</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                                <p>Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.</p>
+                                <div class="price_box">
+                                    <div class="price">$33.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                                <div class="deal_time">
+                                    <div class="item_time days">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Days</span>
+                                    </div>
+                                    <div class="item_time hours">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Hours</span>
+                                    </div>
+                                    <div class="item_time mins">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Mins</span>
+                                    </div>
+                                    <div class="item_time secs">
+                                        <span class="time_number">00</span>
+                                        <span class="time_name">Secs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- TESTIMONIAL -->
+            <section class="section_black testimonial">
+                <div class="container">
+                    <div class="test_title">
+                        <h1>TESTIMONIAL</h1>
+                        <span></span>
+                        <p>Visit Game Universe to download new games. pre-order forthcoming titles, or check the latest deals and offers.</p>
+                    </div>
+                    <div class="test_review">
+                        <div class="test_imgbox">
+                            <img src="img/reviewer01.png" alt="">
+                        </div>
+                        <div class="test_txtbox">
+                            <strong><i class="fas fa-quote-left"></i></strong>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maecenas venenatis arcu urna, sed laoreet sem eleifend laoreet. Curabitur vel tempus neque. Nunc tellus odio,  lobortis id auctor quis, ultricies vel orci. Donec sit amet imperdiet tellus. Cras semper ex commodo vehicula semper.</p>
+                            <div>
+                                <span class="review_name">Willis Henderson</span>
+                                <span class="review_job">Streamer</span>
+                                <span class="review_star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- GAME FEATURES -->
+            <section class="features">
+                <div class="container">
+                    <div class="title">
+                        <h1>GAME FEATURES</h1>
+                    </div>
+                    <div class="list">
+                        <ul class="fea_list">
+                            <li><a href="#">Screen 4K</a></li>
+                            <li><a href="#">Screen HDR</a></li>
+                            <li><a href="#">Multiplayer</a></li>
+                            <li><a href="#">Co-op</a></li>
+                        </ul>
+                        <ul class="arrow_btn">
+                            <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- GAME FEATURES - game list -->
+                    <div class="content">
+                        <!-- GAME FEATURES - Main game -->
+                        <div class="content_box fea_main">
+                            <div class="fea_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game07.jpg" alt=""></a>
+                            </div>
+                            <div class="fea_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Fortnite - Version Zombie</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <p>Cyberpunk 2077 is an open-world, action-adventure story set in Night City. a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can cutomize your character's cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you. Cyberpunk 2077 is an open-world, action-adventure story set in Night City. a megalopolis obsessed with power, glamour and body modification.</p>
+                                <button class="btn_cart"><span><i class="fas fa-cart-plus"></i></span>Add to cart</button>
+                                <div class="price_box">
+                                    <div class="price">$52.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GAME FEATURES - width 1200 이상 Sub game -->
+                        <div class="content_box fea_sub">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game08.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Desolate - Horror Survival Game</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$38.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- GAME FEATURES - width 768 이하 Sub games -->
+                    <div class="content fea_subbox">
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game09.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Gears of War 4</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$42.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game10.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Dark Souls Ⅲ - The Fire Fades</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$35.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GAME FEATURES - width 991 이하 Sub games -->
+                        <div class="content_box">
+                            <div class="gen_imgbox">
+                                <a href="sub.html" target="_self"><img src="img/game11.jpg" alt=""></a>
+                                <div class="btn_add">
+                                    <a href="sub.html" target="_self"><span><i class="fas fa-cart-plus"></i></span>Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="gen_txtbox">
+                                <h4 class="name"><a href="sub.html" target="_self">Asteria Adrienne Enfinger</a></h4>
+                                <span class="use">Playon: PC, XBOX</span>
+                                <span class="new">NEW RELEASE</span>
+                                <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                                <div class="price_box">
+                                    <div class="price">$62.00</div>
+                                    <div class="price_right">
+                                        <span><a href="sub.html" target="_self"><i class="fas fa-search"></i></a></span>
+                                        <span><a href="sub.html" target="_self"><i class="far fa-heart"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- NEWS LETTER -->
+            <section class="section_black letter">
+                <div class="container">
+                    <div class="test_title">
+                        <h1>NEWS LETTER</h1>
+                        <span></span>
+                        <p>Visit Game Universe to download new games. pre-order forthcoming titles, or check the latest deals and offers.</p>
+                    </div>
+                    <div class="letter_email">
+                        <span><i class="far fa-envelope"></i></span>
+                        <input type="text" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <!-- LOGO SLOGAN -->
+            <section class="section_black slogan">
+                <h2 style="display: none">슬로건</h2>
+                <div class="container">
+                    <a class="slogan_box" href="sub.html" target="_self">
+                        <img src="img/slogan01.png" alt="">
+                    </a>
+                    <a class="slogan_box" href="sub.html" target="_self">
+                        <img src="img/slogan02.png" alt="">
+                    </a>
+                    <a class="slogan_box" href="sub.html" target="_self">
+                        <img src="img/slogan03.png" alt="">
+                    </a>
+                    <a class="slogan_box" href="sub.html" target="_self">
+                        <img src="img/slogan01.png" alt="">
+                    </a>
+                    <a class="slogan_box" href="sub.html" target="_self">
+                        <img src="img/slogan02.png" alt="">
+                    </a>
+                    <a class="slogan_box" href="sub.html" target="_self">
+                        <img src="img/slogan03.png" alt="">
+                    </a>
+                </div>
+            </section>
+            <!-- 4 PAYMENT INFOMATION -->
+            <section class="info_pay">
+                <div class="container">
+                    <div class="info_box">
+                        <div class="info_imgbox">
+                            <img src="img/ico_info01.png" alt="">
+                        </div>
+                        <div class="info_txtbox">
+                            <h4>Free Shipping</h4>
+                            <p>on all arders over $49.00</p>
+                        </div>
+                    </div>
+                    <div class="info_box">
+                        <div class="info_imgbox">
+                            <img src="img/ico_info02.png" alt="">
+                        </div>
+                        <div class="info_txtbox">
+                            <h4>30 Days returns</h4>
+                            <p>Moneyback guarantee</p>
+                        </div>
+                    </div>
+                    <div class="info_box">
+                        <div class="info_imgbox">
+                            <img src="img/ico_info03.png" alt="">
+                        </div>
+                        <div class="info_txtbox">
+                            <h4>Secure checkout</h4>
+                            <p>100% Protectted by Paypal</p>
+                        </div>
+                    </div>
+                    <div class="info_box">
+                        <div class="info_imgbox">
+                            <img src="img/ico_info04.png" alt="">
+                        </div>
+                        <div class="info_txtbox">
+                            <h4>Save Money</h4>
+                            <p>Save 10% money on purchases</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="foot_menu">
+                <div class="container">
+                    <div class="foot_menubox">
+                        <dl>
+                            <dt>MY ACCOUNT</dt>
+                            <dd><a href="#">My account</a></dd>
+                            <dd><a href="#">Check Out</a></dd>
+                            <dd><a href="#">Shop</a></dd>
+                            <dd><a href="#">Wishlist</a></dd>
+                            <dd><a href="#">Frequently</a></dd>
+                            <dd><a href="#">Forgot Password</a></dd>
+                        </dl>    
+                    </div>
+                    <div class="foot_menubox">
+                        <dl>
+                            <dt>QUICK LISTS</dt>
+                            <dd><a href="#">Special Offiers</a></dd>
+                            <dd><a href="#">Gift Cards</a></dd>
+                            <dd><a href="#">Game Universe</a></dd>
+                            <dd><a href="#">Privacy Policy</a></dd>
+                            <dd><a href="#">Portfolio</a></dd>
+                            <dd><a href="#">Teams of Use</a></dd>
+                        </dl>    
+                    </div>
+                    <div class="foot_menubox">
+                        <dl>
+                            <dt>USEFUL LINKS</dt>
+                            <dd><a href="#">Hot Trending</a></dd>
+                            <dd><a href="#">Our Store</a></dd>
+                            <dd><a href="#">New Arrival</a></dd>
+                            <dd><a href="#">Best Seller</a></dd>
+                            <dd><a href="#">Order Tracking</a></dd>
+                            <dd><a href="#">Warranty and Services</a></dd>
+                        </dl>    
+                    </div>
+                    <div class="foot_menubox about">
+                        <dl>
+                            <dt>CONTACT INFO & PAYMENT</dt>
+                            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus at urna at accumsan. Nunc id pretium nisl, placerat tincidunt enim. Nunc faucibus arcu non libero lacinia viverra. Ut facilisis odio ut lorem molestie vehicula.</dd>
+                            <dd class="info_ad"><span><i class="fas fa-map-marker-alt"></i></span>Address : <p>30 West Sage Street Algonquin / Newyork / USA</p></dd>
+                            <dd class="info_ad"><span><i class="fas fa-mobile-alt"></i></span>Phone & Hotline : <p>+0808.599.8484 or ( +038.5454.686 )</p></dd>
+                            <dd class="info_ad"><span><i class="far fa-envelope"></i></span>Box mail : <p>Support.Adminthemes@gmail.com</p></dd>
+                        </dl>    
+                    </div>
+                </div>
+            </div>
+            <div class="foot_payment">
+                <div class="container">
+                    <div class="pay_menu">
+                        <ul>
+                            <li><a href="#">Payment</a></li>
+                            <li><a href="#">Shipping & Returns</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Stockists</a></li>
+                        </ul>
+                    </div>
+                    <div class="pay_imgbox">
+                        <ul>
+                            <li><a href="#"><img src="img/ico_pay01.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/ico_pay02.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/ico_pay03.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/ico_pay04.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

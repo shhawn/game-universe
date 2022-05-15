@@ -1,0 +1,476 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        padding: 0 5%;
+    }
+
+    .hot_txtbox button {
+        padding: 16px 21px;
+    }
+
+    .fea_main {
+        width: 100%;
+    }
+
+    .fea_sub {
+        display: none;
+    }
+
+    .fea_subbox {
+        display: flex;
+    }
+
+    .fea_subbox .content_box {
+        width: 31.5%;
+    }
+
+    .fea_main .fea_imgbox {
+        height: 590px;
+    }
+
+    .fea_txtbox p {
+        -webkit-line-clamp: 7;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .container {
+        padding: 0 7%;
+    }
+
+    .list {
+        margin: 0 0 50px 0;
+    }
+
+    .categories {
+        padding: 3% 0 6%;
+    }
+
+    .genre_list {
+        overflow: hidden;
+        flex-basis: 90%;
+    }
+
+    .gamegenre .genre_list > li {
+        position: relative;
+        left: 0%;
+    }
+
+    .gamegenre .arrow_btn {
+        display: flex !important;
+    }
+
+    .box_class {
+        min-width: 170px;
+    }
+    
+    .box_class p {
+        font-size: 85px;
+    }
+    
+    .box_class h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .gamegenre .content_box:last-child {
+        display: none;
+    }
+
+    .gamegenre .content_box {
+        width: 31%;
+    }
+
+    .hot_trending {
+        position: relative;
+    }
+
+    .hot_txtbox {
+        position: absolute;
+        width: 65%;
+    }
+
+    .hot_imgbox {
+        margin-left: auto;
+    }
+
+    .deal .deal_box:last-child {
+        display: none;
+    }
+
+    .deal_box {
+        width: 100%;
+        height: 430px;
+    }
+
+    .deal_imgbox img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .deal_txtbox p {
+        -webkit-line-clamp: 2;
+    }
+
+    .test_review {
+        width: 100%;
+        display: flex;
+    }
+    
+    .test_imgbox {
+        width: 212px;
+    }
+    
+    .test_imgbox img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: none;
+    }
+
+    .test_txtbox {
+        padding: 2% 3%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .test_txtbox p {
+        padding: 4% 0;
+    }
+
+    .slogan .container {
+        flex-wrap: wrap;
+    }
+
+    .slogan_box {
+        width: 30%;
+        margin: 2% 0;
+    }
+
+    .info_box {
+        width: 50%;
+        margin: 2% 0;
+        justify-content: center;
+    }
+
+    .info_imgbox {
+        width: 34px;
+    }
+
+    .info_txtbox {
+        width: 220px;
+    }
+
+    .fea_main .fea_imgbox {
+        height: 542px;
+    }
+
+    .fea_txtbox p {
+        -webkit-line-clamp: 5;
+    }
+
+    .fea_subbox .gen_imgbox {
+        min-height: 280px;
+    }
+
+    .fea_subbox .gen_imgbox img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hot_trending {
+        padding: 5% 0 8%;
+    }
+
+    .hot_txtbox p {
+        width: 57%;
+        padding: 0 0 7% 0;
+    }
+
+    .hot_txtbox button {
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+
+    .letter_email {
+        width: 90%;
+    }
+
+    .letter_email input {
+        line-height: 3;
+        border: none;
+        font-size: 1.2rem;
+    }
+
+    .letter_email button {
+        font-size: 1.125rem;
+        padding: 13px 23px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 5%;
+    }
+
+    .categories .container {
+        flex-wrap: wrap;
+    }
+
+    .box_class {
+        width: 45%;
+        margin: 2%;
+    }
+    
+    .box_class p {
+        font-size: 100px;
+    }
+    
+    .box_class h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .new {
+        color: #fff;
+        background: #fcaa1f;
+        border-radius: 2px;
+        padding: 3px 5px;
+        font-size: 0.8rem;
+    }
+
+    .use {
+        margin: 5px 0 10%;
+    }
+
+    .gen_txtbox {
+        padding: 6%;
+    }
+
+    .price_box {
+        padding: 10px 3px 0;
+    }
+
+    .gamegenre .content_box:nth-child(3) {
+        display: none;
+    }
+
+    .gamegenre .content_box {
+        width: 48%;
+    }
+
+    .hot_trending {
+        padding: 100px 0;
+        max-height: 405px;
+    }
+
+    .hot_txtbox {
+        width: 90%;
+    }
+
+    .hot_txtbox button {
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+
+    .hot_imgbox {
+        width: 40%;
+    }
+
+    .deal_txtbox {
+        padding: 30px 5%;
+        width: 100%;
+    }
+
+    .deal_box {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .deal_imgbox {
+        width: 100%;
+    }
+
+    .deal_imgbox img {
+        object-fit: cover;
+    }
+
+    .deal_txtbox .new {
+        width: 85px;
+    }
+
+    .deal_txtbox .use {
+        margin: 5px 0 15px;
+    }
+    
+    .deal_txtbox .star {
+        margin: 16px 0 22px;
+    }
+    
+    .deal_txtbox p {
+        font-size: 0.875rem;
+        color: #888;
+        line-height: 1.8;
+        -webkit-line-clamp: 3;
+    }
+
+    .deal_txtbox h4 {
+        font-size: 1.313rem
+    }
+    
+    .deal_time {
+        width: 100%;
+        display: flex;
+        background-color: #242226;
+        text-align: center;
+        border-radius: 5px;
+        margin: 6% 0 0 0;
+    }
+
+    .testimonial {
+        padding: 10% 0 12%;
+    }
+
+    .test_title {
+        margin: 0 0 10% 0;
+    }
+
+    .test_review {
+        flex-direction: column;
+    }
+
+    .test_imgbox {
+        width: 100%;
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    .test_imgbox img {
+        width: 50%;
+    }
+
+    .test_txtbox {
+        width: 100%;
+        padding: 0 5% 5% 5%;
+    }
+
+    .review_star {
+        margin: 3% 0 0 0;
+        display: block;
+    }
+
+    .fea_main {
+        flex-direction: column;
+    }
+
+    .fea_imgbox {
+        width: 100%;
+        height: auto !important;
+    }
+
+    .fea_txtbox {
+        width: 100%;
+    }
+
+    .fea_txtbox .use {
+        margin: 5px 0 15px;
+    }
+    
+    .fea_txtbox .star {
+        margin: 16px 0 22px;
+    }
+
+    .fea_txtbox p {
+        padding: 0 0 5px;
+    }
+
+    .fea_list {
+        overflow: hidden;
+        flex-basis: 90%;
+    }
+
+    .fea_list li a {
+        white-space: nowrap;
+    }
+
+    .btn_cart {
+        margin: 20px 0 35px;
+    }
+
+    .fea_subbox .content_box:last-child {
+        display: none;
+    }
+
+    .fea_subbox .content_box {
+        width: 48%;
+    }
+
+    .fea_subbox .gen_imgbox {
+        height: auto !important;
+    }
+
+    .letter_email {
+        width: 100%;
+        padding: 0 2% 0 3%;
+    }
+
+    .letter_email input {
+        line-height: 3;
+        border: none;
+        font-size: 1rem;
+    }
+
+    .letter_email button {
+        font-size: 1.1rem;
+        padding: 8px 9px;
+    }
+
+    .letter_email span {
+        font-size: 1.5rem;
+    }
+
+    .info_box {
+        padding: 0 0 0 5%;
+    }
+
+    .info_txtbox {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    
+    .box_class {
+        width: 100%;
+    }
+
+    .hot_trending {
+        padding: 130px 0;
+    }
+
+    .hot_txtbox button {
+        font-size: 11px;
+        padding: 10px 20px;
+    }
+
+    .hot_txtbox p {
+        width: 80%;
+    }
+
+}

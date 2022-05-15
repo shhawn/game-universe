@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1200px) {
+    
+    main {
+        padding: 5% 7%;
+    }
+
+    .article {
+        width: 65%;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+
+    main {
+        flex-wrap: wrap;
+        padding: 7% 7%;
+    }
+
+    .article {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    html {
+        font-size: 15px;
+    }
+
+    main {
+        padding: 10%;
+    }
+
+    .article {
+        width: 100%;
+        margin-bottom: 25%;
+    }
+
+    .writer {
+        padding: 8% 0;
+    
+    }
+}
